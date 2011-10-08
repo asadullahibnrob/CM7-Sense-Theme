@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="utf-8"?>
+
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pluto="http://www.w3.org/2001/pluto.html"
+    package="com.tmobile.theme.Sense"
+    android:versionCode="11"
+    android:versionName="2.3.6"
+    android:hasCode="false">
+
+    <!-- Make sure this theme APK only shows up on appropriate devices. -->
+    <uses-feature android:name="com.tmobile.software.themes" />
+    <application android:label="@string/app_name" android:icon="@drawable/sense_icon" android:hasCode="false" />
+    <theme
+        pluto:themeId="Sense"
+        pluto:styleId="@style/Sense"
+        pluto:name="@string/theme_name"
+        pluto:preview="@drawable/preview"
+        pluto:author="@string/author"
+        pluto:copyright="@string/copyright"
+        pluto:wallpaperImage="@drawable/wallpaper"
+        pluto:styleName="@string/style_appearance_name"
+        pluto:ringtoneName="Shocking"
+        pluto:ringtoneFileName="media/audio/ringtones/Shocking.mp3"
+        pluto:notificationRingtoneName="Teleport"
+        pluto:notificationRingtoneFileName="media/audio/notifications/Teleport.mp3">
+
+        <!-- Currently this is not being read, but instead the redirections are
+             inferred from the convention res/xml/<package_name>.xml. -->
+        <meta-data android:name="com.tmobile.theme.redirections"
+            android:resource="@xml/redirections" />
+
+    </theme>
+
+</manifest>
