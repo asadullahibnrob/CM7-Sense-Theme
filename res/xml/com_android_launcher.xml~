@@ -11,5 +11,5 @@
 
     <item name="drawable/lab2_bg">@drawable/lab2_bg</item>
     <item name="drawable/rab2_bg">@drawable/rab2_bg</item>
-   
+    <item name="drawable/shortcut_selector">@drawable/shortcut_selector</item>
 </resource-redirections>

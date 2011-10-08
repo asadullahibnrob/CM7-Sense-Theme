@@ -95,6 +95,9 @@
         android:minSdkVersion="7"
         android:resource="@xml/com_android_camera" />     
         
+     <package-redirections android:name="org.adwfreak.launcher"
+        android:minSdkVersion="7"
+        android:resource="@xml/org_adwfreak_launcher" />     
         
             
 </theme-redirections>
