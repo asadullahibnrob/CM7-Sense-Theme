@@ -1,0 +1,10 @@
+notes for me:
+git add README
+git commit -m 'first commit'
+git push origin master
+
+building this theme is simple all you do is place it in ~/android/system/vendor/tmobile/themes
+
+then in terminal type cd ~/android/system
+make Sense
+wait a while and it'll print out where it's at
