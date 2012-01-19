@@ -3,4 +3,6 @@
     <item name="drawable/ic_launcher_contacts">@drawable/ic_launcher_contacts</item>
     <item name="drawable/ic_launcher_phone">@drawable/ic_launcher_phone</item>
 
+    <item name="drawable/custom_background_dialer">@drawable/custom_background_dialer</item>
+
 </resource-redirections>
